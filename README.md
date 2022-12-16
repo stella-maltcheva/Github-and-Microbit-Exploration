@@ -31,7 +31,14 @@ To create a game where there are two LEDs, which tunr on randomly. The player mu
   <li>Plug the red LED into Pin 1 of the Innovation Board, the yellow one into Pin 13 and the vibration motor into Pin 2</li>
   <li>connect the Microbit to your computer by using thr Micro-USB cable</li>
   <li>All done!</li>
-</ol>
-  
+</ol></p>
+
+<p><b>Block code with comments:</b></p>
+<ul>
+  <li>Create the functions:</li>
+  ![creating functions](https://user-images.githubusercontent.com/113818647/208049358-64175609-32af-499c-9e5c-209856275ab0.png)
+
+ 
+
   
 
