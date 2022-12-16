@@ -11,40 +11,27 @@ To create a game where there are two LEDs, which tunr on randomly. The player mu
 </ol></p>
 
 
-Materials
-I used the Grove Inventor Kit for micro:bit. The specific materials I used are displayed below.
-Screen Shot 2022-12-12 at 9 14 53 PM
-BBC micro:bit
-Grove Shield for micro:bit
-Grove - Universal 4 Pin Unbuckled Cable
-Grove - Moisture Sensor
-Grove - Vibration Motor
-Steps
-Create a function to initiate vibration.
-Screen Shot 2022-12-12 at 8 56 05 PM
-When the pin 1 is set to 1, the vibration motor will turn on. The pause ensures that the vibration motor will vibrate for an apppropriate amount of time. Pin 1 is set back to 0 to turn the vibration motor off.
-In a forever loop, create a variable that reads the mositure sensor, displays the moisture number on the screen of the microbit, and calls vibration when wet.
-Screen Shot 2022-12-12 at 8 56 14 PM
-When the mositure sensor was completely submerged in water, it displayed a moisture level in the high 40s to high 50s, so I called my vibrations in a 'while' loop accordingly. I had to 'break' my code in the while loop so my code would continuosly recieve another input from my moisture sensor.
-This is the resultant code in JavaScript:
-  let moisture = 0
-function vibrate () {
-    pins.digitalWritePin(DigitalPin.P1, 1)
-    basic.pause(1000)
-    pins.digitalWritePin(DigitalPin.P1, 0)
-}
-basic.forever(function () {
-    moisture = Math.map(pins.analogReadPin(AnalogPin.P0), 0, 750, 0, 100)
-    basic.showNumber(Math.round(moisture))
-    basic.clearScreen()
-    while (40 <= moisture && moisture <= 65) {
-        vibrate()
-        break;
-    }
-})
-Or see both block and JavaScript code here!
-Next, wire the components.
-Input the micro:bit into the Grove Shield. Connect Pin 0 (on the Grove Shield) to the Moisture Sensor using the Universal 4 Pin Unbuckled Cables. Then, in the same way, connect Pin 1 to the Vibration Motor. See image below:
-Screen Shot 2022-12-12 at 9 35 09 PM
-Finished!
-As the video of the final product is too large to be shown here, the video is instead included in the repository as 'SubmergeAndShake.MOV'.
+<p><b>Materials:</b></p>
+
+<p>I used the Grove Inventor Kit for micro:bit. The specific materials I used are displayed below:
+<ul>
+<li>Microbit</li>
+<li>Microbit Innovation Board</li>
+<li>2 Grove LEDs</li>
+<li>Grove Vibration Motor</li>
+<li>Micro-USB cable</li>
+</ul></p>
+
+
+<p><b>Steps for wiring:</b>
+<ol>
+  <li>Plug the Microbit into the Innovation Bord</li>
+  <li>Assemble each of the two LEDs using the parts provided in their ziploc</li>
+  <li>Assemble the Vibration motor using the parts provided in the Grove vibration motor ziploc</li>
+  <li>Plug the red LED into Pin 1 of the Innovation Board, the yellow one into Pin 13 and the vibration motor into Pin 2</li>
+  <li>connect the Microbit to your computer by using thr Micro-USB cable</li>
+  <li>All done!</li>
+</ol>
+  
+  
+
