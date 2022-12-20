@@ -37,7 +37,13 @@ To create a game where there are two LEDs, which tunr on randomly. The player mu
 <ul>
   <li>Create the functions:</li>
 
-![Screenshot 2022-12-20 151515](https://user-images.githubusercontent.com/113818647/208784308-305eba2d-9a89-4e3f-8a6a-1edcf7f9ae91.png)
+  ![Screenshot 2022-12-20 151515](https://user-images.githubusercontent.com/113818647/208784308-305eba2d-9a89-4e3f-8a6a-1edcf7f9ae91.png)
+  
+  <li>Defining variables at the start:</li>
+  
+  ![Screenshot 2022-12-20 152022](https://user-images.githubusercontent.com/113818647/208784803-4992b711-c36e-4a44-b168-b88a35cef051.png)
+
+ 
 
  
 
