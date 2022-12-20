@@ -39,9 +39,29 @@ To create a game where there are two LEDs, which tunr on randomly. The player mu
 
   ![Screenshot 2022-12-20 151515](https://user-images.githubusercontent.com/113818647/208784308-305eba2d-9a89-4e3f-8a6a-1edcf7f9ae91.png)
   
-  <li>Defining variables at the start:</li>
+  <li>Defining variables at the start and creating a while loop. (This makes sure the variables aren't defined more than once):</li>
   
-  ![Screenshot 2022-12-20 152022](https://user-images.githubusercontent.com/113818647/208784803-4992b711-c36e-4a44-b168-b88a35cef051.png)
+  ![Screenshot 2022-12-20 152424](https://user-images.githubusercontent.com/113818647/208785338-fce0a65f-14bd-4c57-9eec-052117bdb99c.png)
+  
+  <li>Use a random selector to randomly turn on an LED:</li>
+  
+  ![Screenshot 2022-12-20 152721](https://user-images.githubusercontent.com/113818647/208785558-008b5927-f91c-412d-a3af-70107f2fd9c5.png)
+
+  <li>If the player doesn't press button A on time:</li>
+  
+  ![Screenshot 2022-12-20 152920](https://user-images.githubusercontent.com/113818647/208785725-f9106d83-aa4f-4f87-8cd7-926064eb3679.png)
+
+  <li>Add 'else' to the if statement. If the player does player presses button A on time:</li>
+  
+  ![Screenshot 2022-12-20 153132](https://user-images.githubusercontent.com/113818647/208785993-48c0db57-f9f6-4f16-9ef8-6a91afdcd845.png)
+  
+  <li>Repeat the same code for the other lightbulb and pin:</li>
+  
+  ![Screenshot 2022-12-20 153325](https://user-images.githubusercontent.com/113818647/208786167-fc6de1da-009a-461f-ac57-3d90e39598da.png)
+
+  <li>All done! Enjoy:)</li>
+  
+  ![Screenshot 2022-12-20 153500](https://user-images.githubusercontent.com/113818647/208786327-f6ee1c88-2dec-47f5-ac97-b101233d4ec4.png)
 
  
 
