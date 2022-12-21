@@ -63,7 +63,16 @@ To create a game where there are two LEDs, which tunr on randomly. The player mu
   
   ![Screenshot 2022-12-20 153500](https://user-images.githubusercontent.com/113818647/208786327-f6ee1c88-2dec-47f5-ac97-b101233d4ec4.png)
 
- 
+</ul>
+
+<p><b>Ressources</b>
+  <ul>
+    <li>https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+      https://micromaker.co.uk/innovation-lessons/</li>
+    <li>https://github.com/otsop110/microbit-projects</li>
+</p>
+
+
 
  
 
