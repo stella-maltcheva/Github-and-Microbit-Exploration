@@ -1,6 +1,6 @@
 # Github-and-Microbit-Exploration
 <p><b>Objective:</b>
-To create a game where there are two LEDs, which tunr on randomly. The player must press the corresponding button for the LED in time in order to score a point and turn it off. This repeats until the player doesn't press the right button on time, and then the microbit displays a frownie face and the vibrator vibrates. Our goal is throughout the process is to better understand how to use Microbit and sensors as well as create functions.</p>
+To create a game where there are two LEDs, which turn on randomly. The player must press the corresponding button for the LED in time in order to score a point and turn it off. This repeats until the player doesn't press the right button on time, and then the microbit displays a frownie face and the vibrator vibrates. Our goal is throughout the process is to better understand how to use Microbit and sensors as well as create functions.</p>
 
 <p><b>How To Play:</b>
 <ol>
